@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 //import auxiliar.envio;
 
-
+//TESTANDO ALTERAÇÕES
 public class Leitura {
 	
 	
@@ -54,7 +54,7 @@ public class Leitura {
 
 			bL.close();
 			leitura.close();
-			FileWriter escrita = new FileWriter("C:/Desenvolvimento/ArqFinal.txt",false);//n�o apaga o arquivo
+			FileWriter escrita = new FileWriter("C:/Desenvolvimento/ArqFinal.txt",false);//não apaga o arquivo
 			BufferedWriter bE = new BufferedWriter(escrita);
 			
 			Collections.sort(lista);
